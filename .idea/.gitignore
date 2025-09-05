@@ -1,0 +1,82 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Build & distribution
+build/
+dist/
+*.log
+*.pot
+
+# =========================
+# Home Assistant / HACS
+# =========================
+# Hidden files in config
+.storage/
+home-assistant.log
+home-assistant_v2.db*
+*.db-shm
+*.db-wal
+*.db-journal
+
+# Pytest / coverage
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.pytest_cache/
+.cache/
+.dmypy.json
+
+# =========================
+# IDEs & Editors
+# =========================
+
+# JetBrains (PyCharm, IntelliJ, Rider, etc.)
+.idea/
+*.iml
+out/
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+.history/
+
+# =========================
+# OS / Misc
+# =========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# =========================
+# Project-specific
+# =========================
+# ZIP exports (if you build distribution zips locally)
+*.zip
