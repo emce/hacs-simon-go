@@ -1,0 +1,15 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add Simon GO device",
+        "description": "Enter IP address and device type",
+        "data": {
+          "host": "IP address",
+          "device_type": "Device type",
+          "name": "Name"
+        }
+      }
+    }
+  }
+}

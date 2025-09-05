@@ -1,0 +1,14 @@
+{
+  "name": "Simon GO",
+  "content_in_root": false,
+  "render_readme": true,
+  "country": [
+    "PL"
+  ],
+  "homeassistant": "2024.1.0",
+  "domains": [
+    "simon_go"
+  ],
+  "iot_class": "local_polling",
+  "zip_release": false
+}

@@ -1,0 +1,15 @@
+{
+  "domain": "simon_go",
+  "name": "Simon GO",
+  "version": "0.2.0",
+  "documentation": "https://example.com/",
+  "issue_tracker": "https://example.com/issues",
+  "codeowners": [
+    "@your-github-handle"
+  ],
+  "requirements": [],
+  "iot_class": "local_polling",
+  "loggers": [
+    "custom_components.simon_go"
+  ]
+}

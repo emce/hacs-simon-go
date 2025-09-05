@@ -1,0 +1,66 @@
+switch_for_time:
+  fields:
+    seconds:
+      description: Czas w sekundach
+      example: 5
+    channel:
+      description: Kanał (opcjonalnie dla SWITCH D)
+      example: 0
+    host:
+      description: IP (opcjonalnie)
+switch_toggle:
+  fields:
+    channel:
+      description: Kanał (opcjonalnie dla SWITCH D)
+    host:
+      description: IP (opcjonalnie)
+dimmer_set_hex:
+  fields:
+    hex:
+      description: HEX jasności (00..FF)
+dimmer_inc:
+  fields:
+    step:
+      description: Krok zwiększenia
+dimmer_dec:
+  fields:
+    step:
+      description: Krok zmniejszenia
+dimmer_effect:
+  fields:
+    effect:
+      description: Numer efektu
+    seconds:
+      description: Czas działania (opcjonalnie)
+rgbw_set_hex:
+  fields:
+    hex:
+      description: HEX RR GG BB WW (8 znaków)
+rgbw_effect:
+  fields:
+    effect:
+      description: Numer efektu
+shutter_favorite:
+  fields:
+    host:
+      description: IP (opcjonalnie)
+shutter_toggle:
+  fields:
+    host:
+      description: IP (opcjonalnie)
+shutter_set_tilt:
+  fields:
+    percent:
+      description: 0..100
+rollergate_vent:
+  fields: {}
+gate_pulse1:
+  fields: {}
+gate_pulse2:
+  fields: {}
+thermo_boost:
+  fields: {}
+thermo_set_raw:
+  fields:
+    raw:
+      description: Temperatura *100 (np. 2150 = 21.50°C)
